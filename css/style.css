@@ -1,0 +1,181 @@
+::selection { /* Pour les autres */
+    background: rgba(255,255,255,.2);
+    color:white;
+}
+
+::-moz-selection { /* Pour firefox */
+    background:rgba(255,255,255,.2);
+    color:white;
+}
+
+body {
+    background: rgba(62,176,205,1) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:rgba(255,255,255,1);
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: rgba(255,255,255,1);
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-shadow: 2px 1px 0px rgba(0,0,0,.1);
+    filter: dropshadow(color=rgba(0,0,0,.1), offx=2, offy=1);
+}
+
+header h1 span {
+    color: rgba(53,143,175,1);
+    text-shadow: none;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+header #top {
+    padding-top: 11%;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    padding-left: 5%;
+}
+
+header #top button {
+    cursor: pointer;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 2px solid rgba(255,255,255,1);
+    border-radius: 50%;
+    color: rgba(255,255,255,1);
+    font-size: 1.2em;
+    -webkit-transition:all .2s ease-in;
+    -moz-transition:all .2s ease-in;
+    -ms-transition:all .2s ease-in;
+    -o-transition:all .2s ease-in;
+    transition:all .2s ease-in;
+}
+
+header #top button:hover {
+    background: rgba(255,255,255,1);
+    border: 2px solid rgba(255,255,255,0);
+    color: rgba(62,176,205,1);
+    -webkit-transition:background .2s ease-in;
+    -moz-transition:background .2s ease-in;
+    -ms-transition:background .2s ease-in;
+    -o-transition:background .2s ease-in;
+    transition:background .2s ease-in;
+}
+
+#content {
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    color: rgba(255,255,255,1); 
+    padding-top: 6%;
+}
+
+#content h2 {
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    line-height: 1.2em;
+}
+
+#content h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    color: rgba(30,95,112,1);
+}
+
+#content img {
+    margin-top: 8%;
+    float: right;
+}
+
+form {
+    text-align: center;
+    margin-top: 8%;
+}
+
+form textarea {
+    outline: none;
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 1% 2% 1% 1.5%;
+    border: 2px solid rgba(231,98,63,0);
+    -webkit-transition:all .2s;
+    -moz-transition:all .2s;
+    -ms-transition:all .2s;
+    -o-transition:all .2s;
+    transition:all .2s;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: rgba(30,95,112,.5);
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: rgba(30,95,112,.5);
+}
+
+form textarea:focus {
+    border: 2px solid rgba(30,95,112,.7);
+    color: rgba(231,98,63,1);
+}
+
+#content p {
+    text-align: center;
+    color: rgba(30,95,112,1);
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+#content p span {
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+}
+
+#about {
+    text-align: center;
+    padding-top: 7%;
+}
+
+#about a {
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    -ms-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+}
+
+#about a:hover {
+    color: rgba(30,95,112,1);
+}
+
+#about p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2%;
+    font-size: .7em;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: rgba(30,95,112,1);
+    letter-spacing: 1px;
+}
+
+a.mt-share-inline-square-sm img { width: 34px; height: auto; border: 0px; }a.mt-share-inline-square-sm { display: inline-block; width: 34px; height: 34px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; margin-right: 4px; }.mt-google:hover { background-color: rgb(225, 95, 79); }.mt-google { background-color: rgb(221, 75, 57); }.mt-linkedin:hover { background-color: rgb(16, 135, 192); }.mt-linkedin { background-color: rgb(14, 118, 168); }.mt-twitter:hover { background-color: rgb(8, 187, 255); }.mt-twitter { background-color: rgb(0, 172, 238); }.mt-facebook:hover { background-color: rgb(66, 100, 170); }.mt-facebook { background-color: rgb(59, 89, 152); }

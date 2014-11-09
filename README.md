@@ -1,4 +1,4 @@
-crctr
-=====
+crctr.github.io
+===============
 
-Do you want to know how many characters you're typing?
+crctr - Know how many character and you are typing easily

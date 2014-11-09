@@ -1,0 +1,1 @@
+function count(e,t){var n=e.val();var r=n.trim().replace(/[\.,-\/#!$%\^&\*;:{}=\-_`()]/g,"").split(/\b\w+\b/).length-1;var i=n.length;if(i===0){r=0}t.html(i+" characters & "+r+" words")}$(document).ready(function(){count($("#text"),$("#result"));$("#text").keyup(function(){count($("#text"),$("#result"))})})

@@ -1,0 +1,13 @@
+/* TEAM */
+	Me: Khalil Benihoud & Dekkaki Marouane
+	Site: http://benihoudkhalil.com/ - http://www.marouane.co
+	Twitter : @benihoudkhalil/ @Marouanatix
+	Location: France
+
+
+/* SITE */
+	Last update: 20/11/2013                         
+	Standards: HTML5, CSS3, JavaScript                   
+	Components: jQuery                   
+	Software: Sublime Text 2
+
